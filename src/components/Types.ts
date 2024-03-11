@@ -1,6 +1,6 @@
-type tye={
+type TProduct={
     imgg:string,
     hed:string,
     bt:string;
 }
-export default tye;
+export default TProduct;

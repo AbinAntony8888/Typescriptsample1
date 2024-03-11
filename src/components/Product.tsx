@@ -1,8 +1,8 @@
 import Button from "./Button";
 import Heading from "./Heading";
 import Image from "./Image";
-import tye from "./Types";
-function Product({imgg,hed,bt}:tye){
+import TProduct from "./Types";
+function Product({imgg,hed,bt}:TProduct){
     return(
         <div >
             <Image imag={imgg}/>

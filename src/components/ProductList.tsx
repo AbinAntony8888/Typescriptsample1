@@ -1,8 +1,8 @@
 import Product from "./Product";
-import tye from "./Types";
+import TProduct from "./Types";
 
 function ProductList() {
-  let prodectt: tye[] = [
+  let prodectt: TProduct[] = [
     {
       imgg: "https://t3.ftcdn.net/jpg/05/92/45/74/360_F_592457427_VvrurBRa7bCROvoPk1u3JlLMGwzLwWOi.jpg",
       hed: "Hai world......",

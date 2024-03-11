@@ -1,7 +1,7 @@
-type img={
+type TImg={
 imag:string;
 }
-function Image({imag}:img){
+function Image({imag}:TImg){
     return(
         <div>
             <img src={imag} alt="sorry" />
