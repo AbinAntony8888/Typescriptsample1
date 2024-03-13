@@ -1,4 +1,5 @@
 import Product from "./Product";
+import Topbar from "./Topbar";
 import TProduct from "./Types";
 
 function ProductList() {
@@ -16,6 +17,7 @@ function ProductList() {
   ];
   return (
     <div>
+        <Topbar/>
       {prodectt.map((prdt) => {
         return <Product imgg={prdt.imgg} hed={prdt.hed} bt={prdt.bt} />;
       })}
